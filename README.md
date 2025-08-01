@@ -10,9 +10,9 @@
 ### Installation
 ```bash
 pip install -r requirements.txt
-````
+```
 
-### ▶Run a Pipeline
+### Run a Pipeline
 
 ```bash
 python main.py --path examples/pipeline_example.json
