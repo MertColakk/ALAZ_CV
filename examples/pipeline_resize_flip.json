@@ -1,0 +1,8 @@
+{
+  "pipeline": [
+    { "operation": "read", "params": { "path": "test.jpg" } },
+    { "operation": "resize", "params": { "width" : 1024 , "height" : 768} },
+    { "operation": "flip", "params": { "mode": "vertical" } },
+    { "operation": "show", "params": { "title": "Result" } }
+  ]
+}

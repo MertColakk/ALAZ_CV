@@ -1,0 +1,7 @@
+{
+  "pipeline": [
+    { "operation": "read", "params": { "path": "test.jpg" } },
+    { "operation": "show", "params": { "title": "Result" } },
+    { "operation": "save", "params": { "path": "test_saved.jpg" } }
+  ]
+}

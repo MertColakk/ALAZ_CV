@@ -1,0 +1,8 @@
+{
+  "pipeline": [
+    { "operation": "read_video", "params": { "path" : "test_video.mp4" } },
+    { "operation": "to_gray" },
+    { "operation": "show_video", "params": { "title" : "Thomas Shelby Mafia Sigma" } },
+    { "operation": "save_video", "params": { "path" : "test_saved_video.mp4", "fps" : 24 } }
+  ]
+}

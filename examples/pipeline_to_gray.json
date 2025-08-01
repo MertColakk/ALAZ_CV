@@ -1,0 +1,7 @@
+{
+  "pipeline": [
+    { "operation": "read", "params": { "path": "test.jpg" } },
+    { "operation": "threshold" },
+    { "operation": "show", "params": { "title": "Result" } }
+  ]
+}

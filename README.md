@@ -1,3 +1,4 @@
+````markdown
 # 🎯 ALAZ-CV v1: JSON Based Computer Vision Pipeline Framework
 
 **ALAZ-CV** is a lightweight and modular computer vision framework that allows you to perform image and video processing using a simple JSON-based pipeline—no OpenCV required. It leverages core Python tools like `numpy`, `imageio`, `pygame`, and `numba`.
@@ -9,9 +10,9 @@
 ### Installation
 ```bash
 pip install -r requirements.txt
-```
+````
 
-### Run a Pipeline
+### ▶Run a Pipeline
 
 ```bash
 python main.py --path examples/pipeline_example.json
@@ -151,7 +152,7 @@ class CustomOp(Operation):
 
 ## Dependencies
 
-* Python 3.10+
+* Python 3.8+
 * numpy
 * imageio
 * pygame
@@ -179,5 +180,7 @@ Below are some planned enhancements and ideas for future versions of ALAZ-CV:
 ## Author
 
 Developed by **MertColakk**
+
+```
 
 ---

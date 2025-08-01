@@ -1,0 +1,7 @@
+{
+  "pipeline": [
+    { "operation": "read", "params": { "path": "test.jpg" } },
+    { "operation": "threshold", "params" : {"value": 127, "mode":"tozero_inv"} },
+    { "operation": "show", "params": { "title": "Result" } }
+  ]
+}
